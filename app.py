@@ -10,12 +10,12 @@ from io import BytesIO
 pathlib.PosixPath = pathlib.Path
 
 # Sarlavha
-st.markdown("# :green[Tasvirlarni aniqlash]")
+st.markdown("# :Green[Tasvirlarni aniqlash]")
 st.write("Klasslar: Car, Airplane, Boat, Carnivore, Musical_instrument, Sports_equipment, Telephone, Office_supplies, Kitchen_utensil")
 
 # Rasmni yuklash - fayl yoki link orqali
 st.markdown("> :green[Rasmni ushbu qismga yuklang]")
-file_upload = st.file_uploader("Rasm yuklash (avif, png, jpeg, gif, svg)", type=["avif", "png", "jpeg", "gif", "svg","jfif"])
+file_upload = st.file_uploader("Rasm yuklash (avif, png, jpeg, gif, svg)", type=["avif", "png", "jpeg", "gif", "svg"])
 url_input = st.text_input("Yoki rasmning URL manzilini kiriting")
 
 # Modelni yuklash
