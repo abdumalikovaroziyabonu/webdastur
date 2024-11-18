@@ -11,7 +11,7 @@ from io import BytesIO
 pathlib.PosixPath = pathlib.Path
 
 # Sarlavha
-st.markdown("#:Green[Tasvirlarni aniqlash]")
+
 st.write("Klasslar: Car, Airplane, Boat, Carnivore, Musical_instrument, Sports_equipment, Telephone, Office_supplies, Kitchen_utensil")
 
 # Rasmni yuklash - fayl yoki link orqali
